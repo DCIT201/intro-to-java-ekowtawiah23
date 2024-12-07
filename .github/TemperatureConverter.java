@@ -1,7 +1,8 @@
 
 import java.util.Scanner;
+public class Main {
+    public class TemperatureConverter{
 
-public class TemperatureConverter {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -33,5 +34,6 @@ public class TemperatureConverter {
         }
 
         scanner.close();
+    }
     }
 }
