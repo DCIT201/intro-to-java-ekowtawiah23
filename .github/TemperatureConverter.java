@@ -24,11 +24,11 @@ public class TemperatureConverter {
         double convertedTemperature;
         if (choice == 1) {
             // Celsius to Fahrenheit
-            convertedTemperature = (temperature * 9 / 5) + 32;
+            convertedTemperature = (temperature * 9 / 5) + 32; // Stores the value 
             System.out.printf("%.2f Celsius is %.2f Fahrenheit.%n", temperature, convertedTemperature);
         } else {
             // Fahrenheit to Celsius
-            convertedTemperature = (temperature - 32) * 5 / 9;
+            convertedTemperature = (temperature - 32) * 5 / 9; // Stores the value 
             System.out.printf("%.2f Fahrenheit is %.2f Celsius.%n", temperature, convertedTemperature);
         }
 
